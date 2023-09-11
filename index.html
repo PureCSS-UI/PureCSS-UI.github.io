@@ -8,7 +8,7 @@
     <p>b</p>
     <p>b</p>
     <p>b</p>
-    <h1>This Is A</h1><u>CSS</u><h1>Test</h1>
+    <h1>This Is A <em>CSS</em> Test</h1>
   </center>
 </body>
 
@@ -19,7 +19,7 @@
     font-size: 40px;
   }
 
-u {
+em {
     font-family: sans-serif;
     font-size: 40px;
   }
@@ -59,7 +59,7 @@ u {
   }
 }
 
-u {
+em {
   --bg-size: 400%;
   --color-one: lime;
   --color-two: aqua;
@@ -80,7 +80,7 @@ u {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  u {
+  em {
     animation: move-bg 10s linear infinite;
   }
   @keyframes move-bg {
@@ -89,6 +89,8 @@ u {
     }
   }
 }
+  
+em { text-decoration:underline; }
   
   body {
     background-color: black;
